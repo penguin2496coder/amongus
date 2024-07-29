@@ -1,0 +1,32 @@
+("activating.............")
+print("loading AI.......")
+print("loading questions")
+print("loading survey")
+print("done")
+name=input ("What is your name?")
+print("Hi "+name)
+alone=input("are you alone ")
+if alone=="yes":
+    print("wrong") 
+if alone==(" no"):
+    print("ok")
+weapons=input("are you armored with any weapons? ")
+
+if weapons=="yes":
+    print ("wrong")
+if weapons=="no":
+    print ("next question")
+live=input("where do you live ?")
+print("next")
+if sleep=="no":
+    print ("mm hmmm")
+if sleep==("yes"):
+    print("mm hmm")
+sleep=input("do you lock your doors before you sleep? ")
+print("mm hmmm")
+house=input("do you live alone? ")
+print("I can see")
+Id=input("what is your passport and id? ")
+print("noted")
+plateNumber=input("what is your license plate number")
+print("the survey is over, this survey will be deleted from the internet, and do not say any information about this or you will be killed")
